@@ -4,7 +4,7 @@
 
 package no.hvl.dat100;
 
-import static javax.swing.JOptionPane.showInputDialog;
+import static javax.swing.JOptionPane.*;
 
 public class o3 {
 
@@ -20,8 +20,8 @@ public class o3 {
 			sum = sum * nummer;
 			nummer--;
 		}
-
-		System.out.println(inpNummer + "! = " + sum);
+		
+		showMessageDialog(null, inpNummer + "! = " + sum);
 
 	}
 
